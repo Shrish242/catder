@@ -1,0 +1,13 @@
+img{
+    height: 600px;
+    width: 500px;
+}
+#title{
+    background-color: rgb(210, 172, 245);
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3 rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
