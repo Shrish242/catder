@@ -34,7 +34,7 @@ h2{
     font-size: 2 rem;
 }
 .side{
-    padding-left: 5%;
+    padding-left: 2%;
 }
 
 /* download buttons */
@@ -48,19 +48,19 @@ h2{
     width: 20em;
     height: 25rem;
     transform: rotate(20deg);
-
+ position: absolute;
+ left: 40px;
 }
-/* image{ */
-    /* width: 50px; */
-    /* height: 65px; */
-    
-/* } */
 #features{
     padding: 7% 15%;
+    background-color: aliceblue;
+    position: relative;
+    z-index: 1;
 }
 .feature-box{
     text-align: center;
     padding: 5%;
+   
 }
 h3{
     font-family: 'Montserrat-Bold', sans-serif;
@@ -126,4 +126,40 @@ em{
 }
 .carousel-item{
     padding: 7% 15%;
+}
+#pricing{
+    text-align: center;
+}
+.size{
+    font-size: small;
+}
+.card1{
+    background-color: rgb(99, 255, 146);
+    border: black;
+    border: 4px;
+    border-radius: 10%;
+    margin-bottom: 5px;
+}
+.card2{
+    background-color: rgb(183, 255, 67);
+    border: black;
+    border: 4px;
+    border-radius: 10%;
+    margin-bottom: 5px;
+}
+.card3{
+    background-color: rgb(255, 198, 75);
+    border: black;
+    border: 4px;
+    border-radius: 10%;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+@media(max-width: 1028px){
+    .relative{
+        position: static;
+        transform: rotate(0);
+        width: 13rem;
+    height: 20rem;
+    }
 }
