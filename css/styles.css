@@ -95,7 +95,7 @@ text-align: center;
 background-color: rgb(210, 172, 245);
 color: antiquewhite;
 }
-.catp{
+.testimonial-image{
     width: 15%;
     height: 15%;
     border-radius: 100%;
@@ -123,4 +123,7 @@ color: antiquewhite;
 em{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+}
+.carousel-item{
+    padding: 7% 15%;
 }
