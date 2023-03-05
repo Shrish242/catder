@@ -163,3 +163,10 @@ em{
     height: 19rem;
     }
 }
+
+#cta{
+    height: 5%;
+    width: 100%;
+    background-color: rgb(240, 124, 255);
+    text-align: center;
+}
