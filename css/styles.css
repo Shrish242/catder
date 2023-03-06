@@ -167,6 +167,15 @@ em{
 #cta{
     height: 5%;
     width: 100%;
-    background-color: rgb(240, 124, 255);
+    background-color: rgb(210, 172, 245);
     text-align: center;
+    padding: 7% 15%;
+}
+#footer{
+    text-align: center;
+font-size: 0.5 rem;
+
+}
+.social{
+    margin: 15px;
 }
